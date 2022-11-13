@@ -1,32 +1,25 @@
 No.        Name                           Level                Race Type            Country              Scores               Overall Score       
-101        Husam  N/A                     N/A                  N/a                  Jordan               [1, 2, 3, 1, 1]      1.6                 
 999        John David Gonzales            Average              Long distance        USA                  [1, 1, 2, 2, 3]      1.8                 
-30         Mohannad Abdelnaser Rahhal     Average              Middle distance      Jordan               [4, 4, 2, 1, 2]      2.4                 
-500        Mohamad Ahmad Alshehi          Beginner             Middle distance      N/A                  [5, 4, 3, 2, 1]      2.65                
-200        Usain Leo Bolt                 Average              Middle distance      Jamaica              [5, 3, 4, 1, 2]      2.8                 
 400        Adis  Mohammad                 Athlete              Long distance        Nigeria              [1, 1, 5, 5, 3]      3.0                 
-123        Faisal  Bogherra               Professional         Short distance       Algeria              [1, 1, 2, 3, 4]      3.0                 
-595        Juan Arturo Miguel             Beginner             Hurdle               Spain                [2, 2, 3, 3, 3]      3.0                 
-1          Chris  Jaber                   Professional         Hurdle               Lebanon              [1, 2, 3, 4, 4]      4.0                 
 121        Ahmad  Sultan                  Athlete              Long distance        UAE                  [5, 5, 5, 5, 5]      5.0                 
 
-There is a total of 10 Competitors
+There is a total of 3 Competitors
 There competitor with the highest score is Ahmad  Sultan with a score of 5.0
-There competitor with the lowest score is Husam  N/A with a score of 1.6
-The average Overall Score of the competitors is 2.925
+There competitor with the lowest score is John David Gonzales with a score of 1.8
+The average Overall Score of the competitors is 3.266666666666667
 
 Frequency of Scores is 
-Score 1 : 13
-Score 2 : 11
-Score 3 : 10
-Score 4 : 7
-Score 5 : 9
+Score 1 : 4
+Score 2 : 2
+Score 3 : 2
+Score 4 : 0
+Score 5 : 7
 
 
 Number of Racers in each type : 
-Short distance : 1
-Middle distance : 3
+Short distance : 0
+Middle distance : 0
 Long distance : 3
-Hurdle : 2
-Others : 1
+Hurdle : 0
+Others : 0
 

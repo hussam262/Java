@@ -24,13 +24,7 @@ public class CompetitorList {
 	private ArrayList<HARCompetitor> h;
 	private ArrayList<HARCompetitor> o;
 
-	/**
-	 * In the constructor the competitor details is read from the file and added to
-	 * the competitor list
-	 * 
-	 * @throws FileNotFoundException
-	 * @throws IOException
-	 */
+
 
 	public CompetitorList() throws FileNotFoundException, IOException{
 
@@ -117,12 +111,6 @@ public class CompetitorList {
 	}
 
 
-	/**
-	 * This method return the number of racers in each type of race
-	 * 
-	 * @return number of competitors in each race
-	 */
-
 
 	/**
 	 * This method returns the Competitor list
@@ -142,51 +130,10 @@ public class CompetitorList {
 		this.compList = compList;
 	}
 
-	/**
-	 * This method returns the competitor details based on the index in the
-	 * Competitor list
-	 * 
-	 * @param i index of competitor in competitor list
-	 * @return Competitor details
-	 */
-	public String compDetails(int i) {
-		String formatStr = "%-10s %-30s %-20s %-20s %-20s %-20s %-20s";
-		HARCompetitor a = compList.get(i);
-		return String.format(formatStr, a.getCompNum(), a.getCompName(), a.getCompLevel(), a.getRaceType(),
-				a.getCompCountry(), Arrays.toString(a.getScoreArray()), a.getOverallScore());
-	}
-
-	/**
-	 * This method returns the number of competitors in the list
-	 * 
-	 * @return number of Competitors in the list
-	 */
-
-	/**
-	 * This method returns the sum of two integer arrays
-	 * 
-	 * @param a int array 1
-	 * @param b int array 2
-	 * @return sum of int array 1 and 2
-	 */
 
 
-	/**
-	 * This method returns the short details of the competitor based on his number
-	 * 
-	 * @param no competitor number
-	 * @return short details of the competitor
-	 */
-	public String getCompDetails(int no) {
-		for (int i = 0; i < compList.size(); i++) {
-			if (no == compList.get(i).getCompNum()) {
-				return compList.get(i).getShortDetails();
-			}
 
-		}
 
-		return "Competitor not found";
-	}
 
 	/**
 	 * This method takes each line from the input , format it and add it as a

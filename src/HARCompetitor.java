@@ -35,6 +35,14 @@ public abstract class HARCompetitor {
 		this.compScores = scores;
 	}
 
+	public int[] getCompScores() {
+		return compScores;
+	}
+
+	public void setCompScores(int[] compScores) {
+		this.compScores = compScores;
+	}
+
 	/**
 	 * This method returns the array of scores
 	 * 

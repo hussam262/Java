@@ -51,7 +51,7 @@ public class CompListGUI extends JFrame  implements ActionListener{
            BorderFactory.createMatteBorder(3, 3, 3, 3, Color.WHITE));
 
 
-		setupSouthPanel();
+		
 		setupNorthPanel();
 		setupCenterPanel();
 
@@ -94,32 +94,7 @@ public class CompListGUI extends JFrame  implements ActionListener{
         this.add(centerPanel, BorderLayout.CENTER);
 
     }
-    
-    private void setupSouthPanel() {
-        //search panel contains label, text field and button
-        /*JPanel searchPanel = new JPanel();
-        searchPanel.setLayout(new GridLayout(1,3));
-        searchPanel.add(new JLabel("Enter ID"));   
-        searchField = new JTextField(5);
-        searchPanel.add(searchField);   
-        search = new JButton("Search");  
-        searchPanel.add(search);    
-        //specify action when button is pressed
-        search.addActionListener(this) ;
-        
-        //Set up the area where the results will be displayed.
-        result= new JTextField(25);     
-        result.setEditable(false);
-        
-        //set up south panel containing 2 previous areas
-        JPanel southPanel = new JPanel();
-        southPanel.setLayout(new GridLayout(2,1));
-        southPanel.add(searchPanel);
-        southPanel.add(result);
-        
-        //add south panel to the content pane
-        this.add(southPanel, BorderLayout.SOUTH);   	*/
-    }
+ 
     
     private void setupNorthPanel() {
         
@@ -138,10 +113,8 @@ public class CompListGUI extends JFrame  implements ActionListener{
     //find which button and act accordingly
     public void actionPerformed(ActionEvent e) 
     { 
-    	if (e.getSource() == search) {
-    		//search();
-    	}
-    	else if (e.getSource() == shortButton) {
+
+    	if (e.getSource() == shortButton) {
         	RaceGUI gui = new RaceGUI(sh);
             gui.setVisible(true);
     
@@ -168,22 +141,6 @@ public class CompListGUI extends JFrame  implements ActionListener{
             gui.setVisible(true);
     	}
     } 
-    
-  /*  private void search() {
-    	//get search text and search staff list
-    	//setting result text 
-        String searchString = searchField.getText().trim();
-        if(searchString.length() > 0) {
-            Staff person = staffList.findById(searchString);
-            if (person != null ) {
-            	result.setText(person.toString());
-            	
-            }
-            else
-            	result.setText("not found");
-        }   
-        else
-        	result.setText("no text entered");
-    }*/
+
 
 }
